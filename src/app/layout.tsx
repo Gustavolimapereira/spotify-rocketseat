@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className="bg-zinc-800 h-100 w-full">
+      <body className="bg-custom-color h-100 w-full">
         <div className="grid grid-cols-3 gap-2 p-5 h-auto bg-pink-400">
           <div className="bg-green-400 h-80 flex items-center justify-center flex-col">
             <p className="font-sans">Gustavo Lima</p>
