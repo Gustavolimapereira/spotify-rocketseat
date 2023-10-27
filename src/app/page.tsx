@@ -1,4 +1,11 @@
-import { Home as HomeIcon, Search, Library } from 'lucide-react'
+import {
+  Home as HomeIcon,
+  Search,
+  Library,
+  ChevronLeft,
+  ChevronRight,
+} from 'lucide-react'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -35,40 +42,109 @@ export default function Home() {
               Your Library
             </a>
           </nav>
-          <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-2">
-            <a href="" className="text-sm text-zinc-400">
+          <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 1
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 2
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 3
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 4
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 5
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 6
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 7
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 8
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 9
             </a>
-            <a href="" className="text-sm text-zinc-400">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
               PlayList 10
             </a>
           </nav>
         </aside>
-        <main className="flex-1 p-6">main</main>
+        <main className="flex-1 p-6">
+          <div className="flex items-center gap-4">
+            <button className="rounded-full bg-black/40 p-1">
+              {' '}
+              <ChevronLeft />
+            </button>
+            <button className="rounded-full bg-black/40 p-1">
+              {' '}
+              <ChevronRight />
+            </button>
+          </div>
+          <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+            </div>
+            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+            </div>
+            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+            </div>
+            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+            </div>
+            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+            </div>
+            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+            </div>
+          </div>
+        </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
         footer
