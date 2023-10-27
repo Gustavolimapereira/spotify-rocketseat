@@ -4,8 +4,11 @@ import {
   Library,
   ChevronLeft,
   ChevronRight,
+  Play,
 } from 'lucide-react'
 import Image from 'next/image'
+
+// visto ate 36 minutos
 
 export default function Home() {
   return (
@@ -89,7 +92,10 @@ export default function Home() {
           <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
               <Image
                 src="/drake.jpg"
                 width={104}
@@ -97,51 +103,135 @@ export default function Home() {
                 alt="Capa do álbum do Drake"
               />
               <strong>Nothing Was the Same - Drake</strong>
+              <button className="  w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play fill="bg-black" />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+              <button className="  w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+              <button className="  w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+              <button className="  w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+              <button className="  w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <Image
+                src="/drake.jpg"
+                width={104}
+                height={104}
+                alt="Capa do álbum do Drake"
+              />
+              <strong>Nothing Was the Same - Drake</strong>
+              <button className="  w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+          </div>
+
+          <h2 className="font-semibold text-2xl mt-10">
+            Made for Gustavo Lima
+          </h2>
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <div className="bg-white/5 p-2 rounded">
+              <Image
+                src="/drake.jpg"
+                className="w-full"
+                width={120}
+                height={120}
+                alt="Capa do álbum do Drake"
+              />
             </div>
-            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+            <div className="bg-white/5 p-2 rounded">
               <Image
                 src="/drake.jpg"
-                width={104}
-                height={104}
+                className="w-full"
+                width={120}
+                height={120}
                 alt="Capa do álbum do Drake"
               />
-              <strong>Nothing Was the Same - Drake</strong>
             </div>
-            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+            <div className="bg-white/5 p-2 rounded">
               <Image
                 src="/drake.jpg"
-                width={104}
-                height={104}
+                className="w-full"
+                width={120}
+                height={120}
                 alt="Capa do álbum do Drake"
               />
-              <strong>Nothing Was the Same - Drake</strong>
             </div>
-            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+            <div className="bg-white/5 p-2 rounded">
               <Image
                 src="/drake.jpg"
-                width={104}
-                height={104}
+                className="w-full"
+                width={120}
+                height={120}
                 alt="Capa do álbum do Drake"
               />
-              <strong>Nothing Was the Same - Drake</strong>
             </div>
-            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
+            <div className="bg-white/5 p-2 rounded">
               <Image
                 src="/drake.jpg"
-                width={104}
-                height={104}
+                className="w-full"
+                width={120}
+                height={120}
                 alt="Capa do álbum do Drake"
               />
-              <strong>Nothing Was the Same - Drake</strong>
-            </div>
-            <div className="bg-white/10 rounded flex intems-center gap-4 overflow-hidden">
-              <Image
-                src="/drake.jpg"
-                width={104}
-                height={104}
-                alt="Capa do álbum do Drake"
-              />
-              <strong>Nothing Was the Same - Drake</strong>
             </div>
           </div>
         </main>
